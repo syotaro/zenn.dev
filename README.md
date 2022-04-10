@@ -2,7 +2,7 @@
   <img src="https://zenn.dev/images/logo.png" alt="zenn.dev"></a>
 </p>
 
-<h3 align="center">zenn.devの記事管理</h3>
+<h3 align="center"><a href="https://zenn.dev/shotaro">zenn.dev</a>の記事管理</h3>
 
 <div align="center">
 
