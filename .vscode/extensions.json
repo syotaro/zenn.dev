@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "negokaz.zenn-editor",
+        "ics.japanese-proofreading",
+        "fusiondev.new-zenkaku",
+        "davidanson.vscode-markdownlint",
+        "shd101wyy.markdown-preview-enhanced",
+        "kisstkondoros.vscode-gutter-preview",
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
