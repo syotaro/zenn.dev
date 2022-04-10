@@ -1,2 +1,5 @@
 # Custom Dictionary Words
+cond
+hoge
+tyrano
 zenn
