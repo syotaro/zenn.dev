@@ -14,6 +14,7 @@
 
 ---
 
+* [📝 記事一覧](https://zenn.dev/shotaro)
 * [📘 zenn CLI Guide](https://zenn.dev/zenn/articles/zenn-cli-guide)
 
 ```sh
