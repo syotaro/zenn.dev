@@ -7,6 +7,7 @@
         "shd101wyy.markdown-preview-enhanced",
         "kisstkondoros.vscode-gutter-preview",
         "editorconfig.editorconfig",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "dendron.dendron-paste-image"
     ]
 }

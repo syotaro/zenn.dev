@@ -15,6 +15,10 @@
 				"addWords": true,
 				"scope": "workspace"
 			}
-		}
+		},
+		"pasteImage.basePath": "${projectRoot}",
+		"pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
+		"pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
+		"pasteImage.defaultName": "YYYY-MM-DD-hhmm"
 	}
 }
