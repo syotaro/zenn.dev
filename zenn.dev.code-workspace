@@ -36,7 +36,7 @@
 // "when": "editorLangId == 'markdown'"
 // }
 // {
-// "key": "`",
+// "key": "alt+`",
 // "command": "markdown.extension.editing.toggleCodeSpan",
 // "when": "editorLangId == 'markdown'"
 // }
