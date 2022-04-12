@@ -7,9 +7,17 @@
 	"settings": {
 		"workbench.startupEditor": "readme",
 		"cSpell.words": [
+			"canva",
 			"cloudinary",
+			"cond",
+			"dartpad",
 			"drawio",
+			"Estimatable",
+			"gutterpreview",
+			"hhmm",
+			"hoge",
 			"presen",
+			"tyrano",
 			"visio",
 			"zenn"
 		],
@@ -28,8 +36,6 @@
 		"gutterpreview.imagePreviewMaxHeight": 300
 	}
 }
-
-
 // {
 //"key": "shift+cmd+8",
 // "command": "markdown.extension.editing.toggleList",

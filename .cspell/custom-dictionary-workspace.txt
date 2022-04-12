@@ -1,7 +1,0 @@
-# Custom Dictionary Words
-canva
-cond
-dartpad
-hoge
-tyrano
-zenn
