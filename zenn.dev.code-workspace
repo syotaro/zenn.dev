@@ -36,13 +36,3 @@
 		"gutterpreview.imagePreviewMaxHeight": 300
 	}
 }
-// {
-//"key": "shift+cmd+8",
-// "command": "markdown.extension.editing.toggleList",
-// "when": "editorLangId == 'markdown'"
-// }
-// {
-// "key": "alt+`",
-// "command": "markdown.extension.editing.toggleCodeSpan",
-// "when": "editorLangId == 'markdown'"
-// }

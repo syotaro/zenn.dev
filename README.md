@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/syotaro/zenn.dev/)
   [![GitHub Issues](https://img.shields.io/github/issues/syotaro/zenn.dev.svg)](https://github.com/syotaro/zenn.dev/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/syotaro/zenn.dev.svg)](https://github.com/syotaro/zenn.dev/pulls)
 
@@ -20,4 +20,23 @@
 ```sh
 # CLIをアップデートする
 % npm install zenn-cli@latest
+```
+
+```json
+# keybindings.json
+{
+  "key": "shift+alt+cmd+c",
+  "command": "markdown.extension.editing.toggleCodeBlock",
+  "when": "editorLangId == 'markdown'"
+}
+{
+  "key": "shift+cmd+8",
+  "command": "markdown.extension.editing.toggleList",
+  "when": "editorLangId == 'markdown'"
+}
+{
+  "key": "shift+cmd+c",
+  "command": "markdown.extension.editing.toggleCodeSpan",
+  "when": "editorLangId == 'markdown'"
+}
 ```
