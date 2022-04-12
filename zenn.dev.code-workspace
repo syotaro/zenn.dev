@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
+		"workbench.startupEditor": "readme",
 		"cSpell.words": [
 			"cloudinary",
 			"drawio",
