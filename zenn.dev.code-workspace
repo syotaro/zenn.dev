@@ -2,13 +2,14 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "articles"
 		}
 	],
 	"settings": {
 		"cSpell.words": [
+			"cloudinary",
+			"drawio",
+			"presen",
+			"visio",
 			"zenn"
 		],
 		"cSpell.customDictionaries": {
@@ -22,6 +23,7 @@
 		"pasteImage.basePath": "${projectRoot}",
 		"pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
 		"pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
-		"pasteImage.defaultName": "YYYY-MM-DD-hhmm"
+		"pasteImage.defaultName": "YYYY-MM-DD-hhmm",
+		"gutterpreview.imagePreviewMaxHeight": 300
 	}
 }
