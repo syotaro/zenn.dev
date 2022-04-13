@@ -7,12 +7,14 @@
 	"settings": {
 		"workbench.startupEditor": "readme",
 		"cSpell.words": [
+			"allowfullscreen",
 			"canva",
 			"cloudinary",
 			"cond",
 			"dartpad",
 			"drawio",
 			"Estimatable",
+			"googledrive",
 			"gutterpreview",
 			"hhmm",
 			"hoge",
