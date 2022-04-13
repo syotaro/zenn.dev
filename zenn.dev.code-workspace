@@ -21,14 +21,6 @@
 			"visio",
 			"zenn"
 		],
-		"cSpell.customDictionaries": {
-			"custom-dictionary-workspace": {
-				"name": "custom-dictionary-workspace",
-				"path": "${workspaceFolder:zenn.dev}/.cspell/custom-dictionary-workspace.txt",
-				"addWords": true,
-				"scope": "workspace"
-			}
-		},
 		"pasteImage.basePath": "${projectRoot}",
 		"pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
 		"pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
