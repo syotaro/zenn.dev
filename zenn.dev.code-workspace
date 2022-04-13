@@ -27,6 +27,15 @@
 		"pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
 		"pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
 		"pasteImage.defaultName": "YYYY-MM-DD-hhmm",
-		"gutterpreview.imagePreviewMaxHeight": 300
+		"gutterpreview.imagePreviewMaxHeight": 300,
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": false,
+		"markdownlint.config": {
+			"MD034": false, // URLに自動で<>をつけるのを停止
+		},
+		"[markdown]": {
+			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+		},
+		"markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
 	}
 }
