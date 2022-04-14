@@ -23,7 +23,7 @@
 % npm install zenn-cli@latest
 ```
 
-```json
+```jsonc
 // keybindings.json
 {
   "key": "shift+alt+cmd+c",
