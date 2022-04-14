@@ -12,6 +12,7 @@
 			"cloudinary",
 			"cond",
 			"dartpad",
+			"DavidAnson",
 			"drawio",
 			"Estimatable",
 			"googledrive",
@@ -31,11 +32,15 @@
 		"editor.formatOnSave": true,
 		"editor.formatOnPaste": false,
 		"markdownlint.config": {
-			"MD034": false, // URLに自動で<>をつけるのを停止
+			"MD034": false // URLに自動で<>をつけるのを停止
 		},
 		"[markdown]": {
-			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
 		},
-		"markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+		"markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system, BlinkMacSystemFont, system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+		"browser-preview.startUrl": "https://zenn.dev/shotaro",
+		"[jsonc]": {
+			"editor.defaultFormatter": "vscode.json-language-features"
+		},
 	}
 }
