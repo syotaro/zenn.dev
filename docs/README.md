@@ -19,12 +19,12 @@
 * [トピック検索](https://zenn.dev/search)
 
 ```sh
-# CLIをアップデートする
+# CLIをアップデートする。リポジトリ上のトップで下記を実行
 % npm install zenn-cli@latest
 ```
 
 ```json
-# keybindings.json
+// keybindings.json
 {
   "key": "shift+alt+cmd+c",
   "command": "markdown.extension.editing.toggleCodeBlock",
