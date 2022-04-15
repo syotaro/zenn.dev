@@ -32,7 +32,8 @@
 		"editor.formatOnSave": true,
 		"editor.formatOnPaste": false,
 		"markdownlint.config": {
-			"MD034": false // URLに自動で<>をつけるのを停止
+			"MD034": false, // URLに自動で<>をつけるのを停止
+			"MD033": false  // インラインhtmlのアラートは無効（GitHubでは使えるので）
 		},
 		"[markdown]": {
 			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
