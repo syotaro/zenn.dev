@@ -4,27 +4,22 @@
 			"path": "."
 		}
 	],
+	"extensions": {
+		"recommendations": [
+			"negokaz.zenn-editor",
+			"ics.japanese-proofreading",
+			"fusiondev.new-zenkaku",
+			"davidanson.vscode-markdownlint",
+			"kisstkondoros.vscode-gutter-preview",
+			"editorconfig.editorconfig",
+			"streetsidesoftware.code-spell-checker",
+			"dendron.dendron-paste-image"
+		]
+	},
 	"settings": {
 		"workbench.startupEditor": "readme",
-		"cSpell.words": [
-			"allowfullscreen",
-			"canva",
-			"cloudinary",
-			"cond",
-			"dartpad",
-			"DavidAnson",
-			"drawio",
-			"Estimatable",
-			"googledrive",
-			"gutterpreview",
-			"hhmm",
-			"hoge",
-			"presen",
-			"technote",
-			"tyrano",
-			"visio",
-			"zenn"
-		],
+		"extensions.ignoreRecommendations": false, //推奨拡張機能が、おすすめされるように
+		"markdown.extension.list.indentationSize": "inherit", //Editor Configで設定した内容（タブはspace4つ）にする為の変更
 		"pasteImage.basePath": "${projectRoot}",
 		"pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
 		"pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
@@ -33,8 +28,12 @@
 		"editor.formatOnSave": true,
 		"editor.formatOnPaste": false,
 		"markdownlint.config": {
+			"default": true,
 			"MD034": false, // URLに自動で<>をつけるのを停止
-			"MD033": false // インラインhtmlのアラートは無効（GitHubでは使えるので）
+			"MD033": false, // インラインhtmlのアラートは無効（GitHubでは使えるので）
+			"MD007": {
+				"indent": 4 //indentが4つで、エラーが出ないようにする
+			}
 		},
 		"[markdown]": {
 			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
@@ -47,5 +46,31 @@
 		"[jsonc]": {
 			"editor.defaultFormatter": "vscode.json-language-features"
 		},
+		"cSpell.words": [
+			"allowfullscreen",
+			"canva",
+			"cloudinary",
+			"cond",
+			"dartpad",
+			"DavidAnson",
+			"dendron",
+			"drawio",
+			"Estimatable",
+			"fusiondev",
+			"googledrive",
+			"gutterpreview",
+			"hhmm",
+			"hoge",
+			"kisstkondoros",
+			"negokaz",
+			"orukred",
+			"presen",
+			"technote",
+			"tyrano",
+			"tyranosyntax",
+			"visio",
+			"zenkaku",
+			"zenn"
+		],
 	}
 }
