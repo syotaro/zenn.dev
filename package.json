@@ -20,6 +20,7 @@
   "dependencies": {
     "zenn-cli": "^0.1.109"
   },
+  "//": "以下は、secretlintに関わる記述",
   "scripts": {
     "secretlint": "secretlint '**/*'"
   },
