@@ -20,6 +20,7 @@
 			"hhmm",
 			"hoge",
 			"presen",
+			"technote",
 			"tyrano",
 			"visio",
 			"zenn"
@@ -33,10 +34,13 @@
 		"editor.formatOnPaste": false,
 		"markdownlint.config": {
 			"MD034": false, // URLに自動で<>をつけるのを停止
-			"MD033": false  // インラインhtmlのアラートは無効（GitHubでは使えるので）
+			"MD033": false // インラインhtmlのアラートは無効（GitHubでは使えるので）
 		},
 		"[markdown]": {
 			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+		},
+		"[yaml]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
 		},
 		"markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system, BlinkMacSystemFont, system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
 		"browser-preview.startUrl": "https://zenn.dev/shotaro",
