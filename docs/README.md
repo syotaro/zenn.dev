@@ -16,7 +16,7 @@
 
 * [📝 記事一覧](https://zenn.dev/shotaro)
 * [📘 zenn CLI Guide](https://zenn.dev/zenn/articles/zenn-cli-guide)
-* [トピック検索](https://zenn.dev/search)
+* [🔍トピック検索](https://zenn.dev/search)
 
 ```sh
 # CLIをアップデートする。リポジトリ上のトップで下記を実行
