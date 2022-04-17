@@ -19,5 +19,12 @@
   "homepage": "https://github.com/syotaro/zenn.dev#readme",
   "dependencies": {
     "zenn-cli": "^0.1.109"
+  },
+  "scripts": {
+    "secretlint": "secretlint '**/*'"
+  },
+  "devDependencies": {
+    "@secretlint/secretlint-rule-preset-recommend": "5.2.0",
+    "secretlint": "5.2.0"
   }
 }
