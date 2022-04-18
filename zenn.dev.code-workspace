@@ -12,7 +12,6 @@
 			"davidanson.vscode-markdownlint",
 			"kisstkondoros.vscode-gutter-preview",
 			"editorconfig.editorconfig",
-			"streetsidesoftware.code-spell-checker",
 			"dendron.dendron-paste-image"
 		]
 	},
@@ -35,42 +34,16 @@
 				"indent": 4 //indentが4つで、エラーが出ないようにする
 			}
 		},
+		"markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system, BlinkMacSystemFont, system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+		"browser-preview.startUrl": "https://zenn.dev/shotaro",
 		"[markdown]": {
 			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
 		},
 		"[yaml]": {
 			"editor.defaultFormatter": "esbenp.prettier-vscode"
 		},
-		"markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system, BlinkMacSystemFont, system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
-		"browser-preview.startUrl": "https://zenn.dev/shotaro",
 		"[jsonc]": {
 			"editor.defaultFormatter": "vscode.json-language-features"
 		},
-		"cSpell.words": [
-			"allowfullscreen",
-			"canva",
-			"cloudinary",
-			"cond",
-			"dartpad",
-			"DavidAnson",
-			"dendron",
-			"drawio",
-			"Estimatable",
-			"fusiondev",
-			"googledrive",
-			"gutterpreview",
-			"hhmm",
-			"hoge",
-			"kisstkondoros",
-			"negokaz",
-			"orukred",
-			"presen",
-			"technote",
-			"tyrano",
-			"tyranosyntax",
-			"visio",
-			"zenkaku",
-			"zenn"
-		],
 	}
 }
