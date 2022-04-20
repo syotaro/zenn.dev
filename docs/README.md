@@ -18,6 +18,9 @@
 - [📘 zenn CLI Guide](https://zenn.dev/zenn/articles/zenn-cli-guide)
 - [🔍 トピック検索](https://zenn.dev/search)
 
+- フォーマッタ：prettier & EditorConfig
+- Linter ：markdownlint & テキスト校正くん
+
 ```sh
 # CLIをアップデートする。リポジトリ上のトップで下記を実行
 % npm install zenn-cli@latest
