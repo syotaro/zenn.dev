@@ -1,49 +1,41 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"extensions": {
-		"recommendations": [
-			"negokaz.zenn-editor",
-			"ics.japanese-proofreading",
-			"fusiondev.new-zenkaku",
-			"davidanson.vscode-markdownlint",
-			"kisstkondoros.vscode-gutter-preview",
-			"editorconfig.editorconfig",
-			"dendron.dendron-paste-image"
-		]
-	},
-	"settings": {
-		"workbench.startupEditor": "readme",
-		"extensions.ignoreRecommendations": false, //推奨拡張機能が、おすすめされるように
-		"markdown.extension.list.indentationSize": "inherit", //Editor Configで設定した内容（タブはspace4つ）にする為の変更
-		"pasteImage.basePath": "${projectRoot}",
-		"pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
-		"pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
-		"pasteImage.defaultName": "YYYY-MM-DD-hhmm",
-		"gutterpreview.imagePreviewMaxHeight": 300,
-		"editor.formatOnSave": true,
-		"editor.formatOnPaste": false,
-		"markdownlint.config": {
-			"default": true,
-			"MD034": false, // URLに自動で<>をつけるのを停止
-			"MD033": false, // インラインhtmlのアラートは無効（GitHubでは使えるので）
-			"MD007": {
-				"indent": 4 //indentが4つで、エラーが出ないようにする
-			}
-		},
-		"markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system, BlinkMacSystemFont, system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
-		"browser-preview.startUrl": "https://zenn.dev/shotaro",
-		"[markdown]": {
-			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-		},
-		"[yaml]": {
-			"editor.defaultFormatter": "esbenp.prettier-vscode"
-		},
-		"[jsonc]": {
-			"editor.defaultFormatter": "vscode.json-language-features"
-		},
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "negokaz.zenn-editor",
+      "ics.japanese-proofreading",
+      "fusiondev.new-zenkaku",
+      "davidanson.vscode-markdownlint",
+      "kisstkondoros.vscode-gutter-preview",
+      "editorconfig.editorconfig",
+      "dendron.dendron-paste-image"
+    ]
+  },
+  "settings": {
+    "workbench.startupEditor": "readme",
+    "extensions.ignoreRecommendations": false, //推奨拡張機能が、おすすめされるように
+    "markdown.extension.list.indentationSize": "inherit", //Editor Configで設定した内容（タブはspace4つ）にする為の変更
+    "pasteImage.basePath": "${projectRoot}",
+    "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
+    "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
+    "pasteImage.defaultName": "YYYY-MM-DD-hhmm",
+    "gutterpreview.imagePreviewMaxHeight": 300,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system",
+    "browser-preview.startUrl": "https://zenn.dev/shotaro",
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
 }
