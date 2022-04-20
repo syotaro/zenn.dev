@@ -9,6 +9,7 @@
       "negokaz.zenn-editor",
       "ics.japanese-proofreading",
       "fusiondev.new-zenkaku",
+      "esbenp.prettier-vscode",
       "davidanson.vscode-markdownlint",
       "kisstkondoros.vscode-gutter-preview",
       "editorconfig.editorconfig",
@@ -17,17 +18,25 @@
   },
   "settings": {
     "workbench.startupEditor": "readme",
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
     "extensions.ignoreRecommendations": false, //推奨拡張機能が、おすすめされるように
-    "markdown.extension.list.indentationSize": "inherit", //Editor Configで設定した内容（タブはspace4つ）にする為の変更
     "pasteImage.basePath": "${projectRoot}",
     "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
     "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
     "pasteImage.defaultName": "YYYY-MM-DD-hhmm",
     "gutterpreview.imagePreviewMaxHeight": 300,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
     "markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system",
     "browser-preview.startUrl": "https://zenn.dev/shotaro",
+    "markdownlint.config": {
+      "default": true,
+      "MD034": false, // URLに自動で<>をつけるのを停止
+      "MD033": false, // インラインhtmlのアラートは無効（GitHubでは使えるので）
+      "MD007": {
+        "indent": 2 //indentが4つで、エラーが出ないようにする
+      }
+    },
     "[markdown]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
