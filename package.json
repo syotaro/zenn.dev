@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "secretlint": "secretlint '**/*'"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,10 @@
     "zenn-cli": "^0.1.109"
   },
   "//": "以下は、secretlintに関わる記述",
-  "scripts": {
-    "secretlint": "secretlint '**/*'"
-  },
   "devDependencies": {
     "@secretlint/secretlint-rule-preset-recommend": "5.2.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-md-nocjsp": "^1.2.0",
     "secretlint": "5.2.0"
   }
 }
