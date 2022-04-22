@@ -32,10 +32,7 @@
     "markdownlint.config": {
       "default": true,
       "MD034": false, // URLに自動で<>をつけるのを停止
-      "MD033": false, // インラインhtmlのアラートは無効（GitHubでは使えるので）
-      "MD007": {
-        "indent": 2 //indentが4つで、エラーが出ないようにする
-      }
+      "MD033": false // インラインhtmlのアラートは無効（GitHubでは使えるので）
     },
     "[markdown]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
