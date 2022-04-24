@@ -21,7 +21,7 @@
     "editor.wordWrap": "off",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": false,
-    "extensions.ignoreRecommendations": false, //推奨拡張機能が、おすすめされるように
+    "extensions.ignoreRecommendations": false, // 上述の推奨拡張機能をおすすめ表示する
     "pasteImage.basePath": "${projectRoot}",
     "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
     "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
