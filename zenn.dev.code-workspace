@@ -6,22 +6,23 @@
   ],
   "extensions": {
     "recommendations": [
-      "negokaz.zenn-editor",
-      "ics.japanese-proofreading",
-      "fusiondev.new-zenkaku",
-      "esbenp.prettier-vscode",
       "davidanson.vscode-markdownlint",
-      "kisstkondoros.vscode-gutter-preview",
+      "dendron.dendron-paste-image",
       "editorconfig.editorconfig",
-      "dendron.dendron-paste-image"
+      "auchenberg.vscode-browser-preview",
+      "esbenp.prettier-vscode",
+      "fusiondev.new-zenkaku",
+      "ics.japanese-proofreading",
+      "kisstkondoros.vscode-gutter-preview",
+      "negokaz.zenn-editor"
     ]
   },
   "settings": {
-    "workbench.startupEditor": "readme",
-    "editor.wordWrap": "off",
-    "editor.formatOnSave": true,
     "editor.formatOnPaste": false,
-    // Editor
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "off",
+    "extensions.ignoreRecommendations": false, // 上述の推奨拡張機能をおすすめ表示する
+    "workbench.startupEditor": "readme",
     "[markdown]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -31,28 +32,28 @@
     "[jsonc]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    //
-    "extensions.ignoreRecommendations": false, // 上述の推奨拡張機能をおすすめ表示する
-    //
+    // kisstkondoros.vscode-gutter-preview
+    "gutterpreview.imagePreviewMaxHeight": 300,
+    // auchenberg.vscode-browser-preview
+    "browser-preview.startUrl": "https://zenn.dev/shotaro",
+    // dendron.dendron-paste-image
+    "markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system",
     "pasteImage.basePath": "${projectRoot}",
+    "pasteImage.defaultName": "YYYY-MM-DD-hhmm",
     "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
     "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
-    "pasteImage.defaultName": "YYYY-MM-DD-hhmm",
-    "gutterpreview.imagePreviewMaxHeight": 300,
-    "markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system",
-    "browser-preview.startUrl": "https://zenn.dev/shotaro",
     // yzhang.markdown-all-in-one
-    "markdown.extension.toc.slugifyMode": "azureDevops", // TOCのアンカーリンクが、デフォルト（github）だと、dotをskipしてしまって、zenn.devで効かなくなるのの対策（但し、これをやると、github上のレンダリングでアンカーリンクが効かなくなる）
-    "markdown.extension.toc.updateOnSave": true, // 目次も都度更新
-    "markdown.extension.toc.downcaseLink": true, // 大文字の見出しは小文字に変換（work on Github and zenn.dev）
-    "markdown.preview.linkify": false, // URLを、<>で囲って、明治的にリンクであることを示すのを無効（なんとなく）
     "markdown.extension.list.indentationSize": "adaptive", // markdownのインデントなどのルールは、vs codeを受け継がない
     "markdown.extension.syntax.decorations": false, // 非推奨らしいので
+    "markdown.extension.toc.downcaseLink": true, // 大文字の見出しは小文字に変換（work on Github and zenn.dev）
+    "markdown.extension.toc.slugifyMode": "azureDevops", // TOCのアンカーリンクが、デフォルト（github）だと、dotをskipしてしまって、zenn.devで効かなくなるのの対策（但し、これをやると、github上のレンダリングでアンカーリンクが効かなくなる）
+    "markdown.extension.toc.updateOnSave": true, // 目次も都度更新
+    "markdown.preview.linkify": false, // URLを、<>で囲って、明治的にリンクであることを示すのを無効（なんとなく）
     // DavidAnson.vscode-markdownlint
     "markdownlint.config": {
       "default": true,
-      "MD034": false, // URLに自動で<>をつけるのを停止
-      "MD033": false // インラインhtmlのアラートは無効（GitHubでは使えるので）
+      "MD033": false, // インラインhtmlのアラートは無効（GitHubでは使えるので）
+      "MD034": false // URLに自動で<>をつけるのを停止
     }
   }
 }
