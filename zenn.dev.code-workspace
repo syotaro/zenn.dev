@@ -44,7 +44,7 @@
     "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
     // yzhang.markdown-all-in-one
     "markdown.extension.list.indentationSize": "adaptive", // markdownのインデントなどのルールは、vs codeを受け継がない
-    "markdown.extension.syntax.decorations": false, // 非推奨らしいので
+    "markdown.extension.syntax.decorations": false, //非推奨らしいので、明示的にfalse
     "markdown.extension.toc.downcaseLink": true, // 大文字の見出しは小文字に変換（work on Github and zenn.dev）
     "markdown.extension.toc.slugifyMode": "azureDevops", // TOCのアンカーリンクが、デフォルト（github）だと、dotをskipしてしまって、zenn.devで効かなくなるのの対策（但し、これをやると、github上のレンダリングでアンカーリンクが効かなくなる）
     "markdown.extension.toc.updateOnSave": true, // 目次も都度更新
