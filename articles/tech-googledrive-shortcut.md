@@ -1,5 +1,5 @@
 ---
-title: "よく使うGoogleDocs/Slideのショートカットキー "
+title: "GoogleDocs/Slideのショートカットキー "
 emoji: "😊"
 type: "tech" #tech:技術記事/idea:アイデア
 topics: [googleDocument, googledrive, googleSlide]

@@ -57,6 +57,7 @@ published: true
 - `.github/CODEOWNERS`
   - 特定のディレクトリやファイルを編集したPRを作成した時、自動でその編集箇所のOwnerに対してレビューリクエストを送信するための機能
     - 参考：[GitHub で Code Owners を会社として活用する](https://zenn.dev/matken/articles/github-codeowners)
+    - [コードオーナーについて - GitHub Docs](https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-file-location)
 
 ## 3. Git関連
 

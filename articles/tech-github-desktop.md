@@ -1,5 +1,5 @@
 ---
-title: "[公式]ついにプルリクエスト統合も実現した、GitHubDesktop"
+title: "[公式]ついにプルリクエスト統合も実現した、GitHub Desktop3.0"
 emoji: "🙆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [github, git, githubdesktop, githubactions]
