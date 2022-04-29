@@ -2,7 +2,7 @@
 title: "リポジトリ内のコード品質を一定に保つ為の仕組み化"
 emoji: "✨"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: [git, vscode, github]
+topics: [git, vscode, github, code]
 published: true
 ---
 

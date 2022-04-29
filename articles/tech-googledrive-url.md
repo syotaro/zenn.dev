@@ -1,5 +1,5 @@
 ---
-title: "GoogleドライブのURL操作Tips"
+title: "Googleドライブ・ドキュメントのURL操作Tips"
 emoji: "🕌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [googledrive, google, gas]
@@ -73,6 +73,7 @@ googleスライドは、ページ単位でも可能
   - `https://drive.google.com/open?id=FILE_ID`
 - 直接DL
   - `https://drive.google.com/uc?export=download&id=FILE_ID`
+  - `https://drive.google.com/uc?id=FILE_ID`
 - Googleドライブのウェブビューアーでファイルを開く
   - `https://drive.google.com/file/d/FILE_ID/view`
 
