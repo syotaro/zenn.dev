@@ -48,7 +48,7 @@
     "markdown.extension.toc.downcaseLink": true, // 大文字の見出しは小文字に変換（work on Github and zenn.dev）
     "markdown.extension.toc.slugifyMode": "azureDevops", // TOCのアンカーリンクが、デフォルト（github）だと、dotをskipしてしまって、zenn.devで効かなくなるのの対策（但し、これをやると、github上のレンダリングでアンカーリンクが効かなくなる）
     "markdown.extension.toc.updateOnSave": true, // 目次も都度更新
-    "markdown.preview.linkify": false, // URLを、<>で囲って、明治的にリンクであることを示すのを無効（なんとなく）
+    ////"markdown.preview.linkify": false, // URLを、<>で囲って、明治的にリンクであることを示すのを無効（なんとなく）
     // DavidAnson.vscode-markdownlint
     "markdownlint.config": {
       "default": true,
