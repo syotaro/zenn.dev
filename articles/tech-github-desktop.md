@@ -34,13 +34,13 @@ https://desktop.github.com/
 
 ### 2.1. GitHub Actions結果の受信と再実行
 
-![PR](/images/2022-04-29-1200/1.gif)
+![PR](/images/tech-github-desktop/1.gif)
 
 プルリクエスト時にGitHubActionの結果通知をリアルタイムに受信し、実行結果のステータスを確認できます。
 
 また、失敗したジョブまたは単一のジョブのみを再実行させることも可能です。
 プルリクエスト中に、チェックに失敗した時などに、システム通知を受信することもできます。
-![PRのテスト結果通知](/images/2022-04-29-1200/2022-04-29-1201.png)
+![PRのテスト結果通知](/images/tech-github-desktop/2022-04-29-1201.png)
 
 チーム開発の場合、チェック失敗への対応スピードは生産性に直結します。他のメンバーの手を止めてしまう前に、素早く気づき、対処することは重要です。
 slackを経由して通知をすることも可能ですが、初回の設定が面倒なのと、**自分に関係ない通知が多くなって他のメンバーのノイズにり、結果、誰も見なくなったりします。**
@@ -52,11 +52,11 @@ https://github.blog/2022-04-26-github-desktop-3-0-brings-better-integration-for-
 
 PRのチェックをクリア後、マージする前に、チームメンバーからコメントや変更リクエスト、承認を貰った時、その内容も通知されます。各レビュアーが、GitHub上でコメントした後、slackで改めてメンションをつけて連絡する、といった手間から解放されます。
 
-![コメント通知](/images/2022-04-29-1200/2022-04-29-1211.png)
+![コメント通知](/images/tech-github-desktop/2022-04-29-1211.png)
 
 ## 3. チェリーピッキング（コミットを別ブランチにコピー）
 
-![](/images/2022-04-29-1200/3.gif)
+![](/images/tech-github-desktop/3.gif)
 
 チェリーピッキング（摘み取り。あるブランチから別のブランチにコミットをコピーする）を、ドラッグ＆ドロップで直感的に実行できます（複数のコミットを持って行きたい時は、Shiftキーを押しながら）
 
@@ -66,19 +66,19 @@ https://github.blog/2021-03-30-github-desktop-now-supports-cherry-picking/
 
 ## 4. スカッシュ（コミットをまとめる、並べ替え）
 
-![スカッシュ](/images/2022-04-29-1200/2.gif)
+![スカッシュ](/images/tech-github-desktop/2.gif)
 
 コミットが細かすぎたり、コミットの順序にストーリー性がないと、他のチームメンバーの理解を妨げる可能性があります。PRをレビューしてもらう前に、スカッシュを活用して分かりやすくすることはマナーです。
 
 ## 5. 画像のDIFF
 
-![画像のDIFF](/images/2022-04-29-1200/4.gif)
+![画像のDIFF](/images/tech-github-desktop/4.gif)
 
 これは、web上でも普通にできるのですが、一応紹介。画像の変化がわかりやすい、特有のDIFF方法が提供される。なお、SVGはWeb上であれば、画像（blob）としてプレビューや差分比較できるが、ローカルだとテキストファイルとしてのみ認識されているっぽくプレビューされません。
 
 ## 6. Webとの統合
 
-![Webとの統合](/images/2022-04-29-1200/5.gif)
+![Webとの統合](/images/tech-github-desktop/5.gif)
 
 GitHubのWeb上に、「Open with GitHub Desktop」ボタンが用意されています。ちょっとローカルのエディタで見たい、という時に便利
 
@@ -87,7 +87,7 @@ GitHubのWeb上に、「Open with GitHub Desktop」ボタンが用意されて�
 vscodeから、GitHubDesktopを呼び出す拡張があります。
 
 https://marketplace.visualstudio.com/items?itemName=wraith13.open-in-github-desktop
-![](/images/2022-04-29-1200/2022-04-29-0114.png)
+![](/images/tech-github-desktop/2022-04-29-0114.png)
 
 ## 8. スマホ用の公式ツール
 
@@ -96,7 +96,7 @@ https://github.co.jp/mobile.html
 
 通知トリガーだけでなく、通知時間なども、リポジトリ単位で細かく設定できるところがポイントです。
 
-![GitHubモバイルアプリ](/images/2022-04-29-1200/2022-04-29-1247.png)
+![GitHubモバイルアプリ](/images/tech-github-desktop/2022-04-29-1247.png)
 
 ## 9. まとめ
 

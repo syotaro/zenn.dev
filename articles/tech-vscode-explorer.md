@@ -6,7 +6,7 @@ topics: [vscode]
 published: true
 ---
 
-![画像の説明文](/images/2022-04-20-1100/2022-04-20-1101.png)
+![画像の説明文](/images/tech-vscode-explorer/2022-04-20-1101.png)
 
 ## アルファベットの意味
 
