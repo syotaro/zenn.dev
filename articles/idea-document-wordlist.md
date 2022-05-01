@@ -2,7 +2,7 @@
 title: "技術用語の解釈メモ"
 emoji: "🗂"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: [word]
+topics: [document]
 published: true
 ---
 
