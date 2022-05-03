@@ -56,7 +56,7 @@ PRのチェックをクリア後、マージする前に、チームメンバー
 
 ## 3. チェリーピッキング（コミットを別ブランチにコピー）
 
-![](/images/tech-github-desktop/3.gif)
+![alt](/images/tech-github-desktop/3.gif)
 
 チェリーピッキング（摘み取り。あるブランチから別のブランチにコミットをコピーする）を、ドラッグ＆ドロップで直感的に実行できます（複数のコミットを持って行きたい時は、Shiftキーを押しながら）
 
@@ -80,14 +80,14 @@ https://github.blog/2021-03-30-github-desktop-now-supports-cherry-picking/
 
 ![Webとの統合](/images/tech-github-desktop/5.gif)
 
-GitHubのWeb上に、「Open with GitHub Desktop」ボタンが用意されています。ちょっとローカルのエディタで見たい、という時に便利
+GitHubのWeb上に、「Open with GitHub Desktop」ボタンが用意されています。ちょっとローカルのエディターで見たい、という時に便利
 
 ## 7. VScodeとの連携
 
 vscodeから、GitHubDesktopを呼び出す拡張があります。
 
 https://marketplace.visualstudio.com/items?itemName=wraith13.open-in-github-desktop
-![](/images/tech-github-desktop/2022-04-29-0114.png)
+![alt](/images/tech-github-desktop/2022-04-29-0114.png)
 
 ## 8. スマホ用の公式ツール
 

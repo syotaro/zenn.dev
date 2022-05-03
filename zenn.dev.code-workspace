@@ -21,6 +21,7 @@
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
     "editor.wordWrap": "off",
+    "editor.insertSpaces": false, // Tabキーを押すと、スペースが挿入されるのを無効
     "extensions.ignoreRecommendations": false, // 上述の推奨拡張機能をおすすめ表示する
     "workbench.startupEditor": "readme",
     "[markdown]": {
@@ -33,7 +34,8 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     // kisstkondoros.vscode-gutter-preview
-    "gutterpreview.imagePreviewMaxHeight": 300,
+    "gutterpreview.imagePreviewMaxWidth": 400,
+    //"gutterpreview.imagePreviewMaxHeight": 400,
     // auchenberg.vscode-browser-preview
     "browser-preview.startUrl": "https://zenn.dev/shotaro",
     // dendron.dendron-paste-image
