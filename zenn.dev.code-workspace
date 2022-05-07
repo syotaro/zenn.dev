@@ -14,16 +14,30 @@
       "fusiondev.new-zenkaku",
       "ics.japanese-proofreading",
       "kisstkondoros.vscode-gutter-preview",
-      "negokaz.zenn-editor"
+      "negokaz.zenn-editor",
+      "shd101wyy.markdown-preview-enhanced",
+      "TakumiI.markdowntable"
     ]
   },
   "settings": {
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
-    "editor.wordWrap": "off",
     "editor.insertSpaces": false, // Tabキーを押すと、スペースが挿入されるのを無効
+    "editor.wordWrap": "off",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.ts",
+      "tsconfig.json": "tsconfig.*.json",
+      "package.json": "package-lock.json, yarn.lock",
+      "*.md": "${basename}*.md"
+    },
     "extensions.ignoreRecommendations": false, // 上述の推奨拡張機能をおすすめ表示する
     "workbench.startupEditor": "readme",
+    "markdown.preview.linkify": true, // URLを、<>で囲って、明治的にリンクであることを示すのは有効
+    "markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system",
     "[markdown]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -39,7 +53,6 @@
     // auchenberg.vscode-browser-preview
     "browser-preview.startUrl": "https://zenn.dev/shotaro",
     // dendron.dendron-paste-image
-    "markdown.preview.fontFamily": "BIZ UDPGothic,-apple-system",
     "pasteImage.basePath": "${projectRoot}",
     "pasteImage.defaultName": "YYYY-MM-DD-hhmm",
     "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
@@ -50,12 +63,23 @@
     "markdown.extension.toc.downcaseLink": true, // 大文字の見出しは小文字に変換（work on Github and zenn.dev）
     "markdown.extension.toc.slugifyMode": "azureDevops", // TOCのアンカーリンクが、デフォルト（github）だと、dotをskipしてしまって、zenn.devで効かなくなるのの対策（但し、これをやると、github上のレンダリングでアンカーリンクが効かなくなる）
     "markdown.extension.toc.updateOnSave": true, // 目次も都度更新
-    ////"markdown.preview.linkify": false, // URLを、<>で囲って、明治的にリンクであることを示すのを無効（なんとなく）
+    // "shd101wyy.markdown-preview-enhanced"
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "markdown-preview-enhanced.frontMatterRenderingOption": "code block",
+    "markdown-preview-enhanced.imageFolderPath": "/images",
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    //TakumiI.markdowntable
+    "markdowntable.alignColumnHeader": true,
+    "markdowntable.alignData": false,
     // DavidAnson.vscode-markdownlint
     "markdownlint.config": {
       "default": true,
       "MD033": false, // インラインhtmlのアラートは無効（GitHubでは使えるので）
-      "MD034": false // URLに自動で<>をつけるのを停止
+      "MD034": false, // URLに自動で<>をつけるのを停止
+      "MD025": {
+        "front_matter_title": ""
+      }
     }
   }
 }
