@@ -5,3 +5,5 @@ draft/*
 !/draft/.keep
 note.com/*
 !/note.com/.keep
+
+!/articles/idea.md
