@@ -29,13 +29,12 @@
 % npm install -D prettier
 % npm install -D prettier-plugin-md-nocjsp
 ```
-
 ```jsonc
 // keybindings.json
 {
   "key": "shift+alt+cmd+c",
   "command": "markdown.extension.editing.toggleCodeBlock",
-  "when": "editorLangId == 'markdown'"
+  "when": "editorTextFocus && editorLangId == 'markdown'"
 }
 {
   "key": "shift+cmd+8",
