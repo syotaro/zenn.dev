@@ -6,3 +6,4 @@ draft/*
 note.com/*
 !/note.com/.keep
 /articles/idea.md
+/articles/tech.md
