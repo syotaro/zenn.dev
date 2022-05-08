@@ -50,7 +50,7 @@
 
 # フォルダ構成
 
-- articles: zenn.devの記事
+- articles : zenn.devの記事
 - books: zenn.devの本
 - draft: 下書き
 - note.com: note.comへ投稿する記事
