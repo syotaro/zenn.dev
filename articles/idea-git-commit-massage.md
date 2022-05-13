@@ -15,6 +15,7 @@ published: true
 - [4. 具体的なルール](#4.-%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA%E3%83%AB%E3%83%BC%E3%83%AB)
   - [4.1. コミットサマリの先頭には、プレフィックスをつける](#4.1.-%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%82%B5%E3%83%9E%E3%83%AA%E3%81%AE%E5%85%88%E9%A0%AD%E3%81%AB%E3%81%AF%E3%80%81%E3%83%97%E3%83%AC%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B)
 - [5. コミットメッセージ例](#5.-%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E4%BE%8B)
+- [人間と機械が読みやすく、意味のあるコミットメッセージにするための仕様](#%E4%BA%BA%E9%96%93%E3%81%A8%E6%A9%9F%E6%A2%B0%E3%81%8C%E8%AA%AD%E3%81%BF%E3%82%84%E3%81%99%E3%81%8F%E3%80%81%E6%84%8F%E5%91%B3%E3%81%AE%E3%81%82%E3%82%8B%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E3%81%AB%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E4%BB%95%E6%A7%98)
 - [6. REFERENCE](#6.-reference)
 
 ## 1. はじめに
@@ -81,7 +82,7 @@ published: true
 - ❌ apidoc更新
 - ❌ レビュー指摘対応
 - ⭕️ refactor: 重複する関数の記述を1つにまとめた
-- ⭕️ refactor: XXXという変数がこれこれこういう誤解を招いたためより意味のある名前に変更
+- ⭕️ refactor: XXXという変数がXXXXという誤解を招いたため、より意味のある名前に変更
 - ⭕️ refactor: ugafugaというメソッドは非推奨になったので推奨されるメソッドに変更
 - ⭕️ fix: hogehogeというサードパーティモジュールにはこういう脆弱性があるので脆弱性がないものに変更
 - ⭕️ doc: typo
@@ -91,6 +92,24 @@ published: true
 
 - 例： 🎉 :sparkles: ISSUE #XXで定義した新機能を追加
   - 参考：https://www.webfx.com/tools/emoji-cheat-sheet/
+
+## 人間と機械が読みやすく、意味のあるコミットメッセージにするための仕様
+
+「Conventional Commits」という仕様がある。
+
+概要は、下記のスライドがわかりやすかった。
+
+https://speakerdeck.com/cocoeyes02/lets-use-conventional-commits
+
+ただ、このルール、覚えるのも大変だし、チーム内で共通認識取るのも大変そうだ。
+と、思っていたら、vscode拡張があった。
+
+https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits
+
+使ってみたところ、大変使い心地が良かった。
+この拡張を共有すれば、チーム内の統一もやりやすそうだ。
+
+![ 2022-05-13 230459](https://i.imgur.com/AOA3Dcl.png)
 
 ## 6. REFERENCE
 
