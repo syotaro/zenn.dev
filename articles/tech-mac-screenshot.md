@@ -26,3 +26,8 @@ published: true
 ## 部分スクリーンショットでの陰影をなくす
 % defaults write com.apple.screencapture disable-shadow -bool true
 ```
+
+Command + Shift + 5をした後、範囲選択をした直後、Enterを押すとフローティングサムネール。
+フローティングサムネールを右クリックすると、メニューが選べる。
+
+直接クリップボードにコピーしたい場合は、Enterではなく、Command + Cを押す
